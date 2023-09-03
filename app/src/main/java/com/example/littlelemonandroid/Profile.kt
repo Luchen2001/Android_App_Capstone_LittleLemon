@@ -57,7 +57,7 @@ fun ProfileScreen(navController: NavHostController){
                 painter = painterResource(id = R.drawable.logo),
                 contentDescription = "logo",
                 modifier = Modifier
-                    .height(100.dp)
+                    .height(80.dp)
                     .width(200.dp)
                     .clickable {
                         navController.navigate(Home.route)
